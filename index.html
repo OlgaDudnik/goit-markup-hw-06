@@ -41,6 +41,9 @@
             </ul>
         </div>
     </header>
+
+<!---------------------- BANNER ----------------------------->
+
     <main>
     <section class="main-banner">
         <div class="container">
@@ -57,6 +60,9 @@
             </div>
         </div>
     </section>
+
+<!---------------------- FILTERS ----------------------------->
+
     <section class="description-wrapper">
         <div class="container">
             <ul class="list description">
@@ -100,7 +106,7 @@
         </div>
     </section>
 
-<!------------------what-we-do------------------>
+<!---------------------- WHAT WE DO ----------------------------->
     
     <section class="what-we-do">
         <div class="container">
@@ -121,7 +127,9 @@
             </ul>
         </div>
     </section>
-    <!-- Наша команда -->
+
+    <!---------------------- OUR TEAM ----------------------------->
+
     <section class="our-team">
         <div class="container">
             <h2>Наша команда</h2>
@@ -285,6 +293,9 @@
         </ul class="list">
         </div>
     </section>
+
+    <!---------------------- COMPANYS ----------------------------->
+
             <section class="companys">
                 <h2 class="companys-title">Постоянные клиенты</h2>
                     <ul class="list companys-ul">
@@ -334,14 +345,18 @@
             
             </section>
     </main>
-    <!-- Подвал -->
+
+    <!---------------------- FOOTER ----------------------------->
+
     <footer class="footer">
         <div class="container footer-cont">
             <div>
                 <a class="link logo-footer" href="/">
                     <span class="web-text-footer">Web</span><span class="colortext-footer">Studio</span>
                 </a>
-                <!-- Секция подвала, контакты -->
+
+    <!---------------------- FOOTER, CONTACTS -----------------------------> 
+
                 <address>
                     <ul class="list">
                         <li><a class="link address-line" href="" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
@@ -389,7 +404,9 @@
         </div>
         </div>
     </footer>
-<!---------------------- Модальное окно ----------------------->
+    
+<!---------------------- MODAL ----------------------------->
+
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close>
@@ -397,9 +414,21 @@
                     <use href="./images/symbol-defs.svg#icon-close"></use>
                 </svg>
             </button>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="#" class="form-modal">
+                <div class="form-field">
+                    <label for="name">Имя
+                        <input type="text" name="user-name" class="modal-form-input" id="modal-name">
+                        <svg class="modal-icon-person" width="18" height="18">
+                            <use href="./images/symbol-defs.svg#icon-person"></use>
+                        </svg>
+                        </input>
+                    </label>
+                </div>
+            </form>
         </div>
-    </div>
-    
+        </div>
+   
     <script src="./js/modal.js"></script>
 </body>
 </html>
